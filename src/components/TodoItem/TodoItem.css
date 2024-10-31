@@ -1,0 +1,70 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.todo-item:nth-child(odd) {
+  background-color: rgb(237, 252, 252);
+}
+
+.todo-item:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.025)
+}
+
+.todo-item:hover {
+  border: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.todo-item.completed {
+  background-color: rgba(0, 128, 0, 0.15);
+}
+
+.todo-item.completed .todo-text{
+  text-decoration: line-through;
+}
+
+.todo-text {
+  width: 100%;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  gap: 10px;
+}
+
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.icon.delete, .icon.completed:hover {
+  color: rgb(172, 0, 0);
+}
+
+.icon.completed, .icon.complete:hover, .icon.edit:hover {
+  color: rgb(6, 146, 6);
+}
+
+.delete-btn {
+  background-color: rgb(219, 5, 5);
+}
+
+.delete-btn:hover {
+  background-color: red;
+}

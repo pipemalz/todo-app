@@ -1,0 +1,57 @@
+[
+  {
+    "id": "7168929d-24df-4c89-960d-c6056876f787",
+    "text": "Realizar labores domesticas",
+    "completed": false
+  },
+  {
+    "id": "38fdd06b-2160-417a-befd-c33cdaea06a5",
+    "text": "Comprar comestibles",
+    "completed": false
+  },
+  {
+    "id": "457ed9b1-4d84-4d80-a0a8-9b489db38b33",
+    "text": "Responder correos electrónicos",
+    "completed": false
+  },
+  {
+    "id": "255af73e-73a3-4c57-aa49-a887065626f2",
+    "text": "Hacer ejercicio",
+    "completed": false
+  },
+  {
+    "id": "be41a118-64cf-4789-a1be-4e22c71e6d90",
+    "text": "Leer un libro",
+    "completed": false
+  },
+  {
+    "id": "50c17c90-692e-4e2e-89b6-81a21a4f170e",
+    "text": "Llamar a un amigo",
+    "completed": false
+  },
+  {
+    "id": "9a48664f-aaa4-4eba-9e93-ddbfbba38ece",
+    "text": "Trabajar en un proyecto personal",
+    "completed": false
+  },
+  {
+    "id": "71343ceb-ddc1-42ca-bbc2-1a30bc1b87d6",
+    "text": "Ir al banco",
+    "completed": false
+  },
+  {
+    "id": "c00658af-d8a8-4f0e-8de7-93aa79124478",
+    "text": "Cocinar la cena",
+    "completed": false
+  },
+  {
+    "id": "6a585fbf-e09c-4edb-9384-3c77d6cdd4fb",
+    "text": "Pagar facturas",
+    "completed": false
+  },
+  {
+    "id": "272c2f7c-6551-475c-b78d-8fcb9216cd2c",
+    "text": "Organizar el escritorio",
+    "completed": false
+  }
+]

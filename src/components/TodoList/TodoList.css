@@ -1,0 +1,20 @@
+.todo-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: auto;
+  max-height: 600px;
+  gap: 6px;
+}
+
+.p-no-results {
+  text-align: center;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.p-total-todos {
+  text-align: right;
+}

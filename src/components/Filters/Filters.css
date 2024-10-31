@@ -1,0 +1,20 @@
+.filters {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.filters button{
+  width: 30%;
+}
+
+.btn-filter {
+  background-color: white;
+  border: 1px solid #042D59;
+  color: #042D59;
+}
+
+.btn-filter:hover, .btn-filter.active {
+  background-color: #042D59;
+  color: white;
+}
