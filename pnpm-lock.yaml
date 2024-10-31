@@ -60,6 +60,9 @@ importers:
       vite:
         specifier: ^5.4.1
         version: 5.4.8
+      vite-plugin-singlefile:
+        specifier: ^2.0.2
+        version: 2.0.2(rollup@4.22.4)(vite@5.4.8)
 
 packages:
 
@@ -1587,6 +1590,13 @@ packages:
   version-guard@1.1.3:
     resolution: {integrity: sha512-JwPr6erhX53EWH/HCSzfy1tTFrtPXUe927wdM1jqBBeYp1OM+qPHjWbsvv6pIBduqdgxxS+ScfG7S28pzyr2DQ==}
     engines: {node: '>=0.10.48'}
+
+  vite-plugin-singlefile@2.0.2:
+    resolution: {integrity: sha512-Z2ou6HcvED5CF0hM+vcFSaFa+klyS8RyyLxW0PbMRLnMbvzTI6ueWyxdYNFhpuXZgz/aj6+E/dHFTdEcw6gb9w==}
+    engines: {node: '>18.0.0'}
+    peerDependencies:
+      rollup: ^4.18.0
+      vite: ^5.3.1
 
   vite@5.4.8:
     resolution: {integrity: sha512-FqrItQ4DT1NC4zCUqMB4c4AZORMKIa0m8/URVCZ77OZ/QSNeJ54bU1vrFADbDsuwfIPcgknRkmqakQcgnL4GiQ==}
@@ -3360,6 +3370,12 @@ snapshots:
   uuid@11.0.2: {}
 
   version-guard@1.1.3: {}
+
+  vite-plugin-singlefile@2.0.2(rollup@4.22.4)(vite@5.4.8):
+    dependencies:
+      micromatch: 4.0.8
+      rollup: 4.22.4
+      vite: 5.4.8
 
   vite@5.4.8:
     dependencies:
